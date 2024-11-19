@@ -1,0 +1,71 @@
+@use '../util/colors';
+
+/******* Header sstart *******/
+:root{
+    --g-nav: 15px;
+}
+header{
+    height: 70px;
+    padding: 0 30px;
+    background-color: var(--bs-body-bg);
+    border-bottom: 1px solid #c0c0c031;
+    color: var(--bs-emphasis-color);
+    nav{
+        gap: var(--g-nav);
+        a{
+            height: 40px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--bs-text-secondary-color);
+            background-color: transparent;
+            border-radius: 50pc;
+            transition: .5s ease;
+            position: relative;
+            color: var(--bs-text-secondary-color);
+            p{
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: colors.$Sidebar-text-hover;
+                background-color:  colors.$primary;
+                font-size: 10px;
+                padding: 1px 3px;
+                border-radius: 50px;
+            }
+            img{
+                height: 25px;
+                border-radius: 50pc;
+                border: 2px solid  colors.$primary;
+                background-color:  colors.$primary;
+            }
+            &:last-child{
+                
+            animation: setting 2s linear infinite;
+            }
+        }
+        a:hover{
+            color: colors.$Sidebar-text-hover;
+            background-color:  colors.$primary;
+            p{
+                background-color: grey;
+            }
+        }
+
+    }
+}
+
+// Small devices (landscape phones, 576px and down)
+@media (max-width: 576px) {
+    :root{
+        --g-nav: 2px;
+    }
+}
+
+@keyframes setting {
+    100%{
+        transform: rotate(360deg);    
+    }
+}
+/******* Header end *******/

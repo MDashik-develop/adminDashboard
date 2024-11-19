@@ -1,0 +1,66 @@
+@forward 'component/reset';
+@forward 'component/header';
+@forward 'component/sidebar';
+@forward 'component/card';
+@forward 'component/table';
+
+@use 'util/colors';
+
+:root{
+    --mw-card-body: 250px;
+}
+body{
+    
+    font-family: "Quicksand", sans-serif;
+}
+.main{
+height: 100%;
+overflow: hidden;
+background-color: var(--main-bg);
+}
+
+
+.main-body{
+    width: 100%;
+}
+.main-content-body{
+    width: 100%;
+    height: calc(95vh - 50px);
+    padding: 10px 15px;
+    overflow-y: scroll;
+    white-space: wrap;
+    background-color: var(--main-bg);
+}
+
+.main-content-body::-webkit-scrollbar{
+    display: none;
+}
+.page-title{
+    h1{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--bs-emphasis-color);
+    }
+    span{
+        font-size: 13.3px;
+        color: colors.$primary;
+        p{
+            color: colors.$text-second-color;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and down)
+@media (max-width: 768px) { }
+
+// Small devices (landscape phones, 576px and down)
+@media (max-width: 576px) { }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }

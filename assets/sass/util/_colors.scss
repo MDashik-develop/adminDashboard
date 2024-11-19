@@ -1,0 +1,33 @@
+$main-bg: #f5f6fa;
+$content-bg: white;
+
+$text-color: black;
+$text-second-color: #61748f;
+$Sidebar-text-hover: white;
+
+$primary: #735dff;
+$submenu-icon: #735dff;
+
+
+//dark
+$dark-main-bg: #19181a;
+$dark-content-bg: #232226;
+$dark-text-color: white;
+$dark-text-second-color: #ffffff73;
+
+:root{
+    --main-bg: #{$main-bg};
+    --bs-body-bg: #{$content-bg};
+    --bs-emphasis-color: #{$text-color};
+    --bs-text-secondary-color: #{$text-second-color};
+}
+
+[data-theme="dark"] {
+    --main-bg: #{$dark-main-bg};
+    --bs-body-bg: #{$dark-content-bg};
+    --bs-emphasis-color: #{$dark-text-color};
+    --bs-text-secondary-color: #{$dark-text-second-color};
+}
+.content-bg{
+    background-color: var(--bs-body-bg);
+}

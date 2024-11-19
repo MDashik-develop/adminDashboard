@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <style>
+
+    </style>
+
+<body>
+
+    <div class="main d-flex">
+        <!-- start sidebar -->
+        <aside class="aside-margin" id="menu">
+            <i id="sidebarCloss" class="ri-close-circle-fill "></i>
+            <div class="logo">
+                <img class="" src="https://flagpalette.com/wp-content/uploads/2024/06/google-logo.png" alt="">
+            </div>
+            <nav class="">
+                <ul class="sidebarUl">
+                    <p class="p">dashboard</p>
+                    <li class="active overflow-hidden text-nowrap" id="dashboard">
+                        <a href="javascript:void(0);" id="dashboard"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-home-3-line"></i></p>
+                            <span>dashboard</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="table.html">Table</a></li>
+                            <li class="active-submenu"><a href="">Analytics</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li class=""><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sidebarUl">
+                    <p class="p">Apps</p>
+                    <li id="apps" class="overflow-hidden text-nowrap">
+                        <a href="javascript:void(0);" id="apps"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-apps-2-ai-line"></i></p>
+                            <span>Apps</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                    <li id="nastedMenu" class="overflow-hidden text-nowrap">
+                        <a href="javascript:void(0);" id="nastedMenu"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-stack-line"></i></p>
+                            <span>Nasted Menu</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sidebarUl">
+                    <p class="p">Authentications</p>
+                    <li id="authentications" class="overflow-hidden text-nowrap">
+                        <a href="javascript:void(0);" id="authentications"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-lock-line"></i></p>
+                            <span>Authentications</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                    <li id="authentications" class="overflow-hidden text-nowrap">
+                        <a href="javascript:void(0);" id="authentications"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-lock-line"></i></p>
+                            <span>Authentications test</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sidebarUl">
+                    <p class="p">Authentications</p>
+                    <li id="authentications" class="overflow-hidden text-nowrap">
+                        <a href="javascript:void(0);" id="authentications"
+                            class="fw-medium d-flex align-items-center text-capitalize position-relative text-nowrap justify-content-start">
+                            <p><i class="ri-lock-line"></i></p>
+                            <span>Authentications</span>
+                            <i class="ri-arrow-right-s-line lai"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                            <li><a href="">Sub Mneus</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- end sidebar -->
+
+        <div class="main-body">
+            <!-- start header -->
+        <header class="w-100 d-flex justify-content-between align-items-center ">
+            <i class="ri-menu-2-line menuBtn cursor-pointer"></i>
+            <nav class="d-flex align-items-center">
+                <a href="javascript:void(0);"><i class="ri-search-line"></i></a>
+                <a href="javascript:void(0);" id="theme-toggle"><i id="theme-icon" class="ri-moon-line"></i></a>
+                <a href="javascript:void(0);"><i class="ri-chat-3-line"></i>
+                    <p>10</p>
+                </a>
+                <a href="javascript:void(0);"><i class="ri-shopping-cart-fill">
+                        <p>10</p>
+                    </i></a>
+                <a href="javascript:void(0);"><i class="ri-notification-line"></i>
+                    <p>10</p>
+                </a>
+                <a href="javascript:void(0);"><img
+                        src="https://www.shutterstock.com/image-vector/person-gray-photo-placeholder-man-260nw-1357323137.jpg"
+                        alt=""></a>
+                <a href="javascript:void(0);"><i class="ri-settings-line"></i></a>
+            </nav>
+        </header>
+        <!-- end header -->
+        <!-- start main-content-body -->
+        <div class="main-content-body d-flex flex-column align-items-center">
+            <div class="page-title text-capitalize w-100 d-flex flex-column justify-content-start gap-2 pt-3 pb-4">
+                <h1>anlytics</h1>
+                <span class="d-flex gap-2">dashboard <p>>> Analytics</p></span>
+            </div>
+            <section class="card-row row w-100 d-flex gap-2 justify-content-sm-center justify-content-md-around justify-content-lg-between justify-content-xs-center">
+                <div class="card-body content-bg col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="card-top">
+                        <i style="color: #735dff;background-color: #735dff34;"  class="ri-group-line"></i>
+                        <span>Total Sell</span>
+                    </div>
+                    <dev class="card-bottom">
+                        <div>
+                            <h1>10,551</h1>
+                            <span>+0.852 <p>increased</p></span>
+                        </div>
+                        <div class="card-chart">
+                            <img src="data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 886.35c44.4-44.752 133.2-229.047 222-223.757 88.8 5.29 133.2 220.836 222 250.205 88.8 29.368 133.2-82.648 222-103.362 88.8-20.713 133.2 36.082 222-.206 88.8-36.287 133.2-90.65 222-181.232 88.8-90.582 133.2-261.532 222-271.678 88.8-10.146 133.2 238.724 222 220.948 88.8-17.777 133.2-231.034 222-309.83 88.8-78.796 177.6-67.32 222-84.15L2000 1400H0Z%22 fill=%22%239398ff1a%22%2F%3E%3Cpath d=%22M0 886.35c44.4-44.752 133.2-229.047 222-223.757 88.8 5.29 133.2 220.836 222 250.205 88.8 29.368 133.2-82.648 222-103.362 88.8-20.713 133.2 36.082 222-.206 88.8-36.287 133.2-90.65 222-181.232 88.8-90.582 133.2-261.532 222-271.678 88.8-10.146 133.2 238.724 222 220.948 88.8-17.777 133.2-231.034 222-309.83 88.8-78.796 177.6-67.32 222-84.15%22 fill=%22none%22 stroke=%22%239398ff%22 stroke-width=%225%22%2F%3E%3C%2Fsvg%3E" alt="">
+                        </div>
+                    </dev>
+                </div>
+                <div class="card-body content-bg col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="card-top">
+                        <i style="color: #1db31d;background-color: #5dff8034;" class="ri-group-line"></i>
+                        <span>Total Proffits</span>
+                    </div>
+                    <dev class="card-bottom">
+                        <div>
+                            <h1>5,132</h1>
+                            <span>+0.852 <p>increased</p></span>
+                        </div>
+                        <div class="card-chart">
+                            <img src="data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 1391.156c24.31-12.403 94.38-45.904 143-72.96 48.62-27.055 94.38-61.047 143-86.187 48.62-25.141 94.38-34.1 143-61.7 48.62-27.6 94.38-90.816 143-100.654 48.62-9.838 94.38 65.916 143 42.784 48.62-23.133 94.38-141.471 143-178.857 48.62-37.387 94.38 2.963 143-41.062 48.62-44.026 94.38-168.324 143-217.913 48.62-49.59 94.38-69.825 143-73.79 48.62-3.967 94.38 70.852 143 50.46 48.62-20.393 94.38-161.084 143-170.416 48.62-9.332 94.38 103.147 143 115.524 48.62 12.377 94.38 33.638 143-42.718 48.62-76.356 118.69-337.342 143-406.436L2000 1400H0Z%22 fill=%22%2335d5001a%22%2F%3E%3Cpath d=%22M0 1391.156c24.31-12.403 94.38-45.904 143-72.96 48.62-27.055 94.38-61.047 143-86.187 48.62-25.141 94.38-34.1 143-61.7 48.62-27.6 94.38-90.816 143-100.654 48.62-9.838 94.38 65.916 143 42.784 48.62-23.133 94.38-141.471 143-178.857 48.62-37.387 94.38 2.963 143-41.062 48.62-44.026 94.38-168.324 143-217.913 48.62-49.59 94.38-69.825 143-73.79 48.62-3.967 94.38 70.852 143 50.46 48.62-20.393 94.38-161.084 143-170.416 48.62-9.332 94.38 103.147 143 115.524 48.62 12.377 94.38 33.638 143-42.718 48.62-76.356 118.69-337.342 143-406.436%22 fill=%22none%22 stroke=%22%2335d500%22 stroke-width=%223%22%2F%3E%3C%2Fsvg%3E" alt="">
+                        </div>
+                    </dev>
+                </div>
+                <div class="card-body content-bg col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="card-top">
+                        <i style="color: #ff5d5d;background-color: #ff5d5d1e;"  class="ri-group-line"></i>
+                        <span>Total Loss</span>
+                    </div>
+                    <dev class="card-bottom">
+                        <div>
+                            <h1>1,214</h1>
+                            <span>+0.852 <p>increased</p></span>
+                        </div>
+                        <div class="card-chart">
+                            <img src="data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 1393.269c11.39-3.19 44.22-5.051 67-18.764s44.22-52.484 67-61.902c22.78-9.417 44.22 19.833 67 6.506 22.78-13.328 44.22-66.742 67-84.903 22.78-18.16 44.22-2.815 67-21.924 22.78-19.11 44.22-72.361 67-90.485 22.78-18.124 44.22-14.39 67-16.126 22.78-1.737 44.22 22.888 67 5.909 22.78-16.979 44.22-84.994 67-105.784 22.78-20.791 44.22-11.647 67-16.515s44.22-31.13 67-12.12c22.78 19.01 44.22 140.735 67 123.943 22.78-16.792 44.22-204.35 67-222.722 22.78-18.372 44.22 126.324 67 114.653 22.78-11.671 44.22-147.051 67-183.308 22.78-36.257 44.22-25.734 67-29.968 22.78-4.234 44.22 13.225 67 5.061s44.22-55.266 67-53.085c22.78 2.182 44.22 76.058 67 65.916 22.78-10.142 44.22-131.042 67-125.572 22.78 5.47 44.22 192.161 67 157.746 22.78-34.414 44.22-301.82 67-360.186 22.78-58.366 44.22 28.981 67 16.856 22.78-12.126 44.22-124.745 67-88.183 22.78 36.561 44.22 297.862 67 303.25 22.78 5.388 44.22-227.535 67-271.556 22.78-44.021 44.22 58.397 67 12.608 22.78-45.79 44.22-257.427 67-281.956 22.78-24.529 44.22 102.986 67 137.667 22.78 34.682 55.61 55.063 67 66.341L2000 1400H0Z%22 fill=%22%23d600001a%22%2F%3E%3Cpath d=%22M0 1393.269c11.39-3.19 44.22-5.051 67-18.764s44.22-52.484 67-61.902c22.78-9.417 44.22 19.833 67 6.506 22.78-13.328 44.22-66.742 67-84.903 22.78-18.16 44.22-2.815 67-21.924 22.78-19.11 44.22-72.361 67-90.485 22.78-18.124 44.22-14.39 67-16.126 22.78-1.737 44.22 22.888 67 5.909 22.78-16.979 44.22-84.994 67-105.784 22.78-20.791 44.22-11.647 67-16.515s44.22-31.13 67-12.12c22.78 19.01 44.22 140.735 67 123.943 22.78-16.792 44.22-204.35 67-222.722 22.78-18.372 44.22 126.324 67 114.653 22.78-11.671 44.22-147.051 67-183.308 22.78-36.257 44.22-25.734 67-29.968 22.78-4.234 44.22 13.225 67 5.061s44.22-55.266 67-53.085c22.78 2.182 44.22 76.058 67 65.916 22.78-10.142 44.22-131.042 67-125.572 22.78 5.47 44.22 192.161 67 157.746 22.78-34.414 44.22-301.82 67-360.186 22.78-58.366 44.22 28.981 67 16.856 22.78-12.126 44.22-124.745 67-88.183 22.78 36.561 44.22 297.862 67 303.25 22.78 5.388 44.22-227.535 67-271.556 22.78-44.021 44.22 58.397 67 12.608 22.78-45.79 44.22-257.427 67-281.956 22.78-24.529 44.22 102.986 67 137.667 22.78 34.682 55.61 55.063 67 66.341%22 fill=%22none%22 stroke=%22%23d60000%22 stroke-width=%223%22%2F%3E%3C%2Fsvg%3E" alt="">
+                        </div>
+                    </dev>
+                </div>
+                <div class="card-body content-bg col-12 col-sm-6 col-md-3 col-lg-2">
+                    <div class="card-top">
+                        <i style="color: #2ad4e0;background-color: hwb(177 7% 0% / 0.103);"  class="ri-group-line"></i>
+                        <span>Total Margin</span>
+                    </div>
+                    <dev class="card-bottom">
+                        <div>
+                            <h1>3,689</h1>
+                            <span>+0.852 <p>increased</p></span>
+                        </div>
+                        <div class="card-chart">
+                            <img src="data:image/svg+xml;utf8,%3Csvg height=%22auto%22 viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath d=%22M0 1398.283c26.18-14.318 101.64-57.001 154-84.222 52.36-27.22 101.64-39.982 154-75.898 52.36-35.915 101.64-95.207 154-135.37 52.36-40.163 101.64-82.123 154-100.882 52.36-18.758 101.64 4.852 154-9.462 52.36-14.313 101.64-58.14 154-74.734 52.36-16.594 101.64 26.625 154-22.877 52.36-49.502 101.64-206.852 154-268.31 52.36-61.456 101.64-119.183 154-93.201 52.36 25.982 101.64 228.645 154 246.038 52.36 17.392 101.64-121.969 154-143.731s101.64 89.262 154 15.717 127.82-372.117 154-448.334L2000 1400H0Z%22 fill=%22%2300d6b71a%22%2F%3E%3Cpath d=%22M0 1398.283c26.18-14.318 101.64-57.001 154-84.222 52.36-27.22 101.64-39.982 154-75.898 52.36-35.915 101.64-95.207 154-135.37 52.36-40.163 101.64-82.123 154-100.882 52.36-18.758 101.64 4.852 154-9.462 52.36-14.313 101.64-58.14 154-74.734 52.36-16.594 101.64 26.625 154-22.877 52.36-49.502 101.64-206.852 154-268.31 52.36-61.456 101.64-119.183 154-93.201 52.36 25.982 101.64 228.645 154 246.038 52.36 17.392 101.64-121.969 154-143.731s101.64 89.262 154 15.717 127.82-372.117 154-448.334%22 fill=%22none%22 stroke=%22%2300d6b7%22 stroke-width=%223%22%2F%3E%3C%2Fsvg%3E" alt="">
+                        </div>
+                    </dev>
+                </div>
+            </section>
+        
+            <!--------------------
+                admin content
+            --------------------->
+        </div>
+        <!-- end main-content-body -->
+        </div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+<style>
+
+</style>
+</html>

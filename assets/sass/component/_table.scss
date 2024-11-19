@@ -1,0 +1,8 @@
+@use '../util/colors';
+
+.table-responsive{
+    background-color: var(--bs-body-bg);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 20px;
+}
